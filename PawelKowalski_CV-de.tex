@@ -1,0 +1,141 @@
+\documentclass[10pt]{moderncv}
+\moderncvstyle{classic} % optional argument are 'nocolor' and 'roman'
+\usepackage[applemac]{inputenc}
+
+\newcommand*{\up}[1]{\textsuperscript{#1}}
+
+%\usepackage[latin1]{inputenc}   % character encoding
+
+% personal data
+\firstname{Pawel}
+\familyname{Kowalski}
+\title{Curriculum Vit\ae{}} 
+\address{Tellstrasse 8\\3014 Bern}
+\phone{079 436 14 02}
+\email{pkowalski@mila.com}
+% \extrainfo{\weblink{https://orbit7.ch}}
+% \quote{}
+
+\begin{document}
+\maketitle
+\makequote
+
+\section{Pers\"onliche Daten}
+\cvdoubleitem{Geburtsdatum}{24. Nov 1978}{Nationalit\"at}{Schweiz/Polen}
+\cvitem{Abschluss}{MSc. ETH Inf.- Ing.}
+%\cvdoubleitem{Heimatort}{Bern BE}{}{}
+
+\section{Berufserfahrung}
+
+\workitem{Dez. 2018--jetzt}
+{CTO, Mila AG, Z\"urich}
+{Technische Leitung von Mila AG, Fach- und Personalf\"uhrung eines Teams von 8 Ingenieuren}
+
+\workitem{April. 2018--Dez. 2018}
+{Co-Founder, orbit7 gmbh, Bern}
+{Entwicklung digitaler Tools im Bildungs- und Personalentwicklungsbereich (lernpfad.ch / talentlab.ch}
+
+\workitem{Feb. 2011--April 2018}
+{Co-Founder und Software Architect, Iterativ GmbH, Bern}
+{Gr\"undung und Gesch\"aftsf\"uhrung der Firma Iterativ GmbH. Akquise und Durchf\"uhrung von iterativen Softwareprojekten in den Rollen von Software Architect und TechLead. Personelle F\"uhrung des iterativ Teams von 6 Teammitgliedern.}
+
+\workitem{}
+{Architekt und TechLead, Iterativ GmbH, Bern}
+{Auftrag Swisscom AG, Schulen Ans Internet:\smallpara 
+Projektleitung bei der Neuentwicklung des Digitalen Klassenbuchs helloclass.ch. Koordination mit dem Dachprojekt Schulen ans Internet 2.0. Nutzungsanalyse, Design und technische Konzeption der Helloclass Applikation.}
+
+\workitem{}
+{Architekt und TechLead, Iterativ GmbH, Bern}
+{Auftrag Siroop AG:\smallpara 
+Initiale Entwicklung der Suchfunktionen f\"ur das neue e-Commerce Startup siroop.ch. Implementation der Suche als Microservice, sowie der Tools f\"ur die Optimierung der Suchfunktionen. Durch die Realisierung als unabh\"angiger Microservice der als Proxy zu elasticsearch fungiert k\"onnen die Suchfunktionen von verschiedenen Stellen aus verwendet werden. Der Suchservice kann unabh\"angig von anderen Softwaremodulen released werden.\smallpara 
+Schulung von ausgew\"ahlten siroop Mitarbeitern damit die Suche intern weiterentwickelt werden kann.}
+
+\workitem{}
+{Architekt und TechLead, Iterativ GmbH, Bern}
+{Auftrag Swisscom AG, MyService:\smallpara 
+Konzeption, Design, Tech Lead und Implementation des MyService Case Managment Tools f\"ur die Swisscom mit dem Iterativ Team. Im ersten Schritt Implementation als Insell\"osung damit der Business Case validiert werden kann. Danach Anbindung an die Swisscom APIs zwecks Skalierung der Applikation. Das Tool wird in kurzen Entwicklungszyklen von 2 Wochen entwickelt und released. Implementation einer Continuous Delivery Pipeline und des Toolings. Betrieb erfolgt im Dynamic Data Center und wurde mit Puppet und Fabric automatisiert.}
+
+\workitem{}
+{Architekt und Technischer Projektleiter, Iterativ GmbH, Bern}
+{Auftrag Swisscom AG, Checks und Aufgabendatenbank Bildungsraum Nordwestschweiz, Adaptives Lernsystem f\"ur 4 Nordwestschweizer Kantone:\smallpara
+Definition und Umsetzung der technischen- und der Informationsarchitektur. Fachf\"uhrung der Software Entwickler.
+Design der adaptiven Algorithmen in Zusammenarbeit mit CITO Netherlands und Urs Moser, Institut f\"ur Bildungsevaluation.\smallpara 
+Erstellen der Konzepte f\"ur das Identity Management und Initialimplementation des UserManagements mit Python und Javascript. 
+Implementation der Suche mit elasticsearch. Implementation des Proof of concept f\"ur die adaptive Lernplatform Mindsteps.\smallpara
+Aufbau des Betriebs im Swisscom Dynamic Datacenter und der Continuous Delivery Infrastruktur mit Puppet und Fabric.}
+
+\workitem{}
+{Software Architect, Iterativ GmbH, Bern}
+{Auftrag Swisscom AG, Order Management Systems (OMS):\smallpara
+Mitarbeit im Frameworkteam des Order Management Systems. 
+Design und Realisierung von verschiedenen Softwarekomponenten mit Java f\"ur das OMS System.\smallpara
+Definition, Design und Implementierung der Continuous Delivery Strategie im OMS Projekt.}
+
+\workitem{Feb. 2011--Juni 2011}  
+{Senior Software Engineer, AdNovum AG, Bern}
+{Performance Analyse, Design und Implementierung der Verbesserungen im Visavergabesystem der Bundesverwaltung. \smallpara
+Mitarbeit bei der Realisierung eines Logistik Verwaltungssystems der Swiss Post International.}
+
+\workitem{April 2009--Juli 2010}  
+{Application Engineer, UBS AG, Z\"urich}
+{ISToolset Portfolio Management Projekt (UBS Top 50 Applikation): \smallpara
+Analyse, Design und Realisierung einer Kernkomponente f\"r die Gesch\"aftsfalldatenverarbeitung (ca. 500'000 Gesch\"aftsf\"alle pro Tag). Zus\"atzlich Fachf\"uhrung der involvierten 
+Fachkr\"afte (DB, Business \& Testing). \smallpara
+Portierung des IS Toolset auf Spring-Security (Acegi). Erweiterung Spring-Security frameworks f\"ur spezifische Anforderungen sowie die Anbindung an vorhandene Infrastruktur (AspectJ, Spring).}
+
+\workitem{Okt. 2008--April 2009} 
+{MSc Projekt, ETH Z\"urich, Systems Group}
+{Modularisierung des Apache Derby Datenbankmanagementsystems.\smallpara
+Ziel des Projektes ist die Aufteilung der Apache Derby Datenbanksoftware in mehrere unabh\"angige und verteilte Komponenten um die Skalierbarkeit und Konfigurierbarkeit zu verbessern. Verwendete Technologien: OSGi, R-OSGi}
+
+\workitem{Jan. 2005--Sept. 2008}
+{Application Engineer, UBS AG, Z\"urich}
+{ISToolset Portfolio Management Projekt (UBS Top 50 Applikation): \smallpara 
+\textbf{Sept. 2006--Sept. 2008 (40\%), Suborganisation Design Authority} \smallpara
+Mitarbeit bei der Analyse, Design und Entwicklung des neu implementierten Ordermanagers. Das Ziel dieses Projektes war es, eine allgemeine Infrastruktur f\"ur das Parallelisieren von rechenintensiven Tasks, sowie deren Loadbalancing \"uber mehrere verteilte Server zur Verf\"ugung zu stellen.\smallpara
+J2EE Applikationsentwicklung (WebSphere, Oracle, Spring, AOP). Aufbau der Continuous Integration Infrastruktur (Maven2, Shellscripts).\smallpara
+Wissenserarbeitung und Evaluation neuer Technologien sowie Einf\"uhrung im Projekt (Oracle XML, AOP, Testing Patterns). Vortr\"age und Schulungen (u.a. Maven2, Spring, Advanced Java). \smallpara
+\textbf{April 2006-Sept. 2006 (70\%)} \smallpara
+Vertretung des ISToolset Projektes im Chief Programmer Gremium. Beratung anderer Projekte im Bereich Continuous Integration Infrastruktur. \smallpara
+Weiterentwicklung der internen Frameworks insbesondere des Workflowframeworks. Migration des Projektes auf Subversion inklusive Subversion Schulung \smallpara
+\textbf{Jan. 2005-M\"arz. 2006 (100\%)} \smallpara
+J2EE Applikationsentwicklung im Frontend Bereich. Weiterentwicklung der internen Frameworks.}
+
+\workitem{April 2006--Sept. 2006}
+{Software Engineer (30\%), Distalogic GmbH, Bern}
+{Architekturberatung bei der Neuentwicklung eines Umfragesystems (.Net, C\#).\smallpara
+Entwicklung eines graphischen Umfrageeditors (WinForms, C\#).\smallpara
+Erarbeitung eines Prototypen f\"ur einen Tankstellen POS (MSMQ, C\#).}
+
+\workitem{Feb. 2004--Juli 2004}
+{Praktikant, INRIA Institut National de la Recherche en Informatique et en Automatique, Sophia Antipolis, Frankreich}
+{Weiterentwicklung des SmartTools-Systems, MDA (Model Driven Architecture) Plattform f\"ur die Entwicklung von DSL (Domans Specific Languages) Werkzeugen.\smallpara
+Analyse, Design und Realisation eines Transformators f\"ur SmartTools Komponenten in WebServices sowie deren Komposition mit BPEL (Java, Eclipse EMF, Tomcat, Axis-WS, Collaxa BPEL).}
+
+\workitem{Okt. 2002--Juli 2003}
+{Praktikant, ELCA Informatik AG, Bern}
+{Weiterentwicklung und Publikation des Dependency Tools. 
+Werkzeug f\"ur die Analyse von Abh\"angigkeiten zwischen Softwarekomponenten http://dptool.sf.net (Java, Graphviz).\smallpara
+Analyse, Design und Realisation des Mail-Forwarders. Eine Email forward-L\"osung f\"ur externe ELCA Ingenieure (Java, MySQL, PHP)\smallpara
+Realisierung einer J2EE Beispielapplikation (J2EE, Swing, Oracle)}
+
+%\workitem{Aug. 1999--Juni 2000}   {Elektrozeichner (40\%), Bering AG, Bern}
+%                                {Planung elektrischer Installationen, SPS Programmierung, Leitung bei Ausf�hrung von Steuersystemen}
+
+\section{Ausbildung}
+
+\eduitem{Sept. 2006--April 2009}  {MSc ETH Informatik-Ingenieur, Spezialisierung Informationssysteme}
+                              {ETH Z\"urich, Departement Informatik, Z\"urich}
+
+\eduitem{Okt. 2000--Jan. 2005}    {Diplom als Ingenieur FH in Informatik mit Vertiefung Software-Engineering}
+                                {Berner Fachhochschule, Hochschule f\"ur Technik und Informatik, Biel}
+
+\eduitem{Okt. 2003--Juli 2004}    {Informatik Ausstauschstudium, Spezialisierung: Verteilte Systeme}
+                                {UNSA ESSI Universit\'e de Nice Sophia Antipolis, Ecole Sup\'erieure en Sciences Informatiques, Frankreich
+                                \small (Stipendien der Hasler- und der Fritz-Gerber-Stiftung)}
+
+\section{Sprachen}
+\cvlistdoubleitem{\textbf{Deutsch} \small(Muttersprache)}{\textbf{Englisch} \small(Fliessend)}
+\cvlistdoubleitem{\textbf{Franz\"osisch} \small(Fliessend)}{}
+
+\end{document}
